@@ -4,21 +4,19 @@ import '../App.css';
 import latteImg from '../assets/latte.jpg';
 import croissantImg from '../assets/croissant.jpg';
 import coldBrewImg from '../assets/cold-brew.jpg';
-import { useNavigate } from 'react-router-dom';
 
 function Home() {
-  const navigate = useNavigate();
   return (
     <div>
       <Helmet>
         <title>Brew & Wind Café | Home</title>
         <meta name="description" content="Welcome to Brew & Wind Café. Enjoy our finest coffee and pastries in a cozy atmosphere." />
       </Helmet>
-      <section className="py-5 bg-cafe-dark-green text-cafe-beige text-center">
+      <section className="hero-section text-center">
         <div className="container">
           <h1 className="display-4 fw-bold mb-3">Welcome to Brew & Wind Café</h1>
           <p className="lead mb-4">Your neighborhood spot for specialty coffee, fresh pastries, and good vibes.</p>
-          <button className="hero-btn bg-cafe-green text-cafe-beige border-0 p-2 rounded" onClick={() => navigate('/menu')}>See Our Menu</button>
+          <button className="hero-btn bg-cafe-green text-cafe-beige border-0 p-2 rounded" onClick={() => { document.getElementById('menu').scrollIntoView({ behavior: 'smooth' }); }}>See Our Menu</button>
         </div>
       </section>
       <section className="py-5 bg-cafe-beige">
