@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer className="bg-dark text-light py-4 mt-auto">
+    <footer className="bg-cafe-dark-green text-light py-4 mt-auto">
       <div className="container d-flex flex-column flex-md-row justify-content-between align-items-center">
         <div className="mb-2 mb-md-0">
           <span className="fw-bold">Brew & Wind Café</span> &copy; {new Date().getFullYear()}<br />
