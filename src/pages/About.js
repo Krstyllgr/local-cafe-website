@@ -9,7 +9,7 @@ function About() {
         <meta name="description" content="Learn about the mission, story, and team behind Brew & Bean Café." />
       </Helmet>
       {/* Hero Section */}
-      <section className="bg-cafe-dark-green d-flex align-items-center justify-content-center" style={{ minHeight: '40vh', position: 'relative' }}>
+      <section className="bg-cafe-dark-green d-flex align-items-center justify-content-center" style={{ minHeight: '45vh', position: 'relative' }}>
         <div className="container text-center">
           <h1 className="display-4 fw-bold mb-3" style={{ color: 'var(--cafe-beige)' }}>Our Story Begins with a Cup</h1>
           <p className="lead mb-4" style={{ color: 'var(--cafe-beige)', maxWidth: 600, margin: '0 auto' }}>
