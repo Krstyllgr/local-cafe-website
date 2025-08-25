@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-cafe-dark-green shadow-sm">
+    <nav className="navbar navbar-expand-lg bg-cafe-dark-green shadow-sm fixed-top">
       <div className="container">
         <a className="navbar-brand d-flex align-items-center" href="#home">
           <span className="fs-4 fw-bold text-cafe-beige">☕ Brew & Wind Café</span>
